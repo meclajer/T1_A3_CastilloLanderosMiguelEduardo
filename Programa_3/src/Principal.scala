@@ -13,7 +13,7 @@ object Principal {
 
   def calculoDeFactorial(numeroObjetivo: Int, creciente: Int, sumatoria: Double): Unit ={
     if ( creciente > numeroObjetivo) {
-      print("\nFactorial de "+numeroObjetivo+" es: " + sumatoria)
+      print("Factorial de "+numeroObjetivo+" es: " + sumatoria+"\n")
     } else {
       var res = sumatoria * creciente;
       calculoDeFactorial( numeroObjetivo, (creciente+1), res )
